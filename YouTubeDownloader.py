@@ -32,11 +32,11 @@ while(not verf):
 
 yt = YouTube(link)
 yt.register_on_progress_callback(on_download_progress)
-<<<<<<< HEAD
+# <<<<<<< HEAD
 
 
-=======
->>>>>>> cc6ba223426e55af029d6faf96b0ee116d1ea424
+# =======
+# >>>>>>> cc6ba223426e55af029d6faf96b0ee116d1ea424
 
 print("#TITLE : ",yt.title,  "#VIEWS :", yt.views,"\n")
 # print(yt.thumbnail)
